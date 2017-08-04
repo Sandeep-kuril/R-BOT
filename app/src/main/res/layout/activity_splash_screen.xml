@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8080ff"
+    android:orientation="vertical"
+    tools:context="com.example.sande.r_bot.SplashScreen"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="23px"
+        android:layout_marginTop="50px"
+        android:id="@+id/app"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.04" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="147px"
+        android:fontFamily="cursive"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginLeft="350px"
+        android:layout_marginTop="80px"
+        android:text="R-BOT" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="39px"
+        android:layout_marginLeft="350px"
+        android:layout_marginTop="30px"
+        android:textColor="#66ff33"
+        android:text="R-BOT is initializing...\nThis might take a while..." />
+    <ProgressBar
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="68px"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>
